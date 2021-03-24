@@ -12,7 +12,7 @@ import shivam.reflection.util.PrimaryKeyField;
 public class PlayWithMetaModel {
 
 	public static void main(String[] args) {
-		Metamodel<person> metamodel = Metamodel.of(person.class);
+		Metamodel metamodel = Metamodel.of(person.class);
 		
 		PrimaryKeyField primaryKeyField = metamodel.getPrimaryKey();
 		List<ColumnField> columnFields = metamodel.getColumns();

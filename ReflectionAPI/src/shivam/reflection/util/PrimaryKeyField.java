@@ -21,4 +21,9 @@ public class PrimaryKeyField {
 		return field.getType();
 	}
 
+	public Field getField() {
+		return this.field;
+		
+	}
+
 }
